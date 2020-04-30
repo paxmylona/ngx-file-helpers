@@ -23,18 +23,21 @@ export class FileDropzoneDirective extends FileHandler {
   public onDragEnter(event: DragEvent) {
     event.stopPropagation();
     event.preventDefault();
+    event.dataTransfer.dropEffect = 'copy';
   }
 
   @HostListener('dragover', ['$event'])
   public onDragOver(event: DragEvent) {
     event.stopPropagation();
     event.preventDefault();
+    event.dataTransfer.dropEffect = 'copy';
   }
 
   @HostListener('drop', ['$event'])
   public onDrop(event: DragEvent) {
     event.stopPropagation();
     event.preventDefault();
+    event.dataTransfer.dropEffect = 'copy';
 
     this.readFiles(event.dataTransfer.files, readFile =>
       this.fileDrop.emit(readFile)
