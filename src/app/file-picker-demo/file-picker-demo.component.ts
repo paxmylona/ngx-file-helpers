@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { FilePickerDirective, ReadFile, ReadMode } from 'ngx-file-helpers';
+import { FilePickerDirective, ReadFile, ReadMode } from 'ngx-file-helpers-copy';
 
 @Component({
   selector: 'app-file-picker-demo',

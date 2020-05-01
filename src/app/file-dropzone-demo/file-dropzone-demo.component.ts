@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { ReadFile, ReadMode } from 'ngx-file-helpers';
+import { ReadFile, ReadMode } from 'ngx-file-helpers-copy';
 
 @Component({
   selector: 'app-file-dropzone-demo',

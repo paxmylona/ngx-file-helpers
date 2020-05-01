@@ -8,7 +8,7 @@ IF errorlevel 1 (
   GOTO :usage
 )
 
-pushd projects\ngx-file-helpers
+pushd projects\ngx-file-helpers-copy
 CALL npm version %1
 popd
 

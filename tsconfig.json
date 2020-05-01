@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "ngx-file-helpers": [
-        "dist/ngx-file-helpers"
+      "ngx-file-helpers-copy": [
+        "dist/ngx-file-helpers-copy"
       ],
-      "ngx-file-helpers/*": [
-        "dist/ngx-file-helpers/*"
+      "ngx-file-helpers-copy/*": [
+        "dist/ngx-file-helpers-copy/*"
       ]
     }
   }

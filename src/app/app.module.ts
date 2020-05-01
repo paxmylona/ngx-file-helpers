@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { NgxFileHelpersModule } from 'ngx-file-helpers';
+import { NgxFileHelpersCopyModule } from 'ngx-file-helpers-copy';
 
 import { AppComponent } from './app.component';
 import { ReadModePipe } from './read-mode.pipe';
@@ -20,7 +20,7 @@ import { FileDropzoneDemoComponent } from './file-dropzone-demo/file-dropzone-de
     MatButtonModule,
     MatTabsModule,
     MatToolbarModule,
-    NgxFileHelpersModule
+    NgxFileHelpersCopyModule
   ],
   declarations: [
     AppComponent,

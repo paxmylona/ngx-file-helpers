@@ -133,33 +133,33 @@
         }
       }
     },
-    "ngx-file-helpers": {
-      "root": "projects/ngx-file-helpers",
-      "sourceRoot": "projects/ngx-file-helpers/src",
+    "ngx-file-helpers-copy": {
+      "root": "projects/ngx-file-helpers-copy",
+      "sourceRoot": "projects/ngx-file-helpers-copy/src",
       "projectType": "library",
       "prefix": "ngx",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ngx-file-helpers/tsconfig.lib.json",
-            "project": "projects/ngx-file-helpers/ng-package.json"
+            "tsConfig": "projects/ngx-file-helpers-copy/tsconfig.lib.json",
+            "project": "projects/ngx-file-helpers-copy/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngx-file-helpers/src/test.ts",
-            "tsConfig": "projects/ngx-file-helpers/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-file-helpers/karma.conf.js"
+            "main": "projects/ngx-file-helpers-copy/src/test.ts",
+            "tsConfig": "projects/ngx-file-helpers-copy/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-file-helpers-copy/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ngx-file-helpers/tsconfig.lib.json",
-              "projects/ngx-file-helpers/tsconfig.spec.json"
+              "projects/ngx-file-helpers-copy/tsconfig.lib.json",
+              "projects/ngx-file-helpers-copy/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

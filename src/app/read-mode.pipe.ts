@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-import { ReadMode } from 'ngx-file-helpers';
+import { ReadMode } from 'ngx-file-helpers-copy';
 
 @Pipe({
   name: 'readMode'
