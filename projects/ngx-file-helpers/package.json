@@ -1,10 +1,10 @@
 {
-  "name": "ngx-file-helpers",
+  "name": "ngx-file-helpers-copy",
   "version": "2.0.0",
   "description": "Angular File Helpers",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fvilers/ngx-file-helpers.git"
+    "url": "git+https://https://github.com/paxmylona/ngx-file-helpers"
   },
   "keywords": [
     "angular",
